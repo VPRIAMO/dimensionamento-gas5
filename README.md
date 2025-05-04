@@ -1,19 +1,26 @@
-# :earth_americas: GDP dashboard template
 
-A simple Streamlit app showing the GDP of different countries in the world.
+# Dimensionamento de Linhas de Produção de Gás
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+Aplicativo em Streamlit para cálculo de velocidade e diâmetro de linhas de produção de gás natural com base em critérios da ANP e API RP 14E.
 
-### How to run it on your own machine
+## Como rodar
 
-1. Install the requirements
+1. Instale o Streamlit:
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+```bash
+pip install streamlit
+```
 
-2. Run the app
+2. Execute o app:
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+```bash
+streamlit run dimensionamento_gas_streamlit.py
+```
+
+## Publicar no Streamlit Cloud
+
+- Suba este repositório no GitHub
+- Vá em https://streamlit.io/cloud
+- Conecte sua conta e clique em "New app"
+- Selecione este repositório e o arquivo `dimensionamento_gas_streamlit.py`
+- Clique em Deploy
